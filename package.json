@@ -1,0 +1,26 @@
+{
+  "name": "nominatim_geocode",
+  "version": "1.0.0",
+  "description": "A script to geocode addresses using OpenStreetMap Nominatim API and write results to a file.",
+  "main": "index.js",
+  "bin": {
+    "geocodeAndWriteToFile": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenDevEd/nominatim_geocode.git"
+  },
+  "author": "Björn Haßler",
+  "bugs": {
+    "url": "https://github.com/OpenDevEd/nominatim_geocode/issues"
+  },
+  "homepage": "https://github.com/OpenDevEd/nominatim_geocode#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "p-limit": "^3.1.0"
+  }
+}
